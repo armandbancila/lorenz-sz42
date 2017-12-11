@@ -30,5 +30,5 @@ The machine works like this:
 
     output the encrypted letter, move onto the next letter
 
-When the output text is displayed, check to see if whether `LTRS` or `FIGS` is active before displaying a letter. This is similar to how SHIFT/CAPSLOCK lets you choose different symbols for the same code.
+When the output text is displayed, check to see if whether `LTRS` or `FIGS` is active before displaying a letter. This is similar to how SHIFT/CAPSLOCK lets you choose different symbols for the same keypress.
 
