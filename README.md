@@ -2,7 +2,7 @@
 Simulates the encryption/decryption of the Lorenz SZ-40/42 used in WW2, which encrypts messages with a Vernam stream cipher, which is a polyalphabetic substitution cipher.
 
 ## algorithm
-The Lorenz SZ40/42 is a rotor stream cipher machine that has 12 wheels and, depending on the version, a few cryptographic addons called "limitations". This code simulates a SZ40/42a/42b without the P5 limitation.
+The Lorenz SZ40/42 is a rotor stream cipher machine that has 12 wheels and, depending on the version, a few optional, cryptographic addons called "limitations". This code simulates a SZ40/42a/42b without the P5 limitation.
 
 The machine works like this:
 
