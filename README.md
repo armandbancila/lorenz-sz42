@@ -6,23 +6,23 @@ The Lorenz SZ40/42 is a rotor stream cipher machine that has 12 wheels and, depe
 
 The machine works like this:
 
-Each letter is transformed into its corresponding code in the ITA2 table.
+    Each letter is transformed into its corresponding code in the ITA2 table.
 
-This code is XORed with the chi wheels and the psi wheels.
+    This code is XORed with the chi wheels and the psi wheels.
 
-After each letter is encrypted: 
+    After each letter is encrypted: 
 
-calculate the limitation (if none, then it is always true, also this is done before the wheels are moved)
+    calculate the limitation (if none, then it is always true, also this is done before the wheels are moved)
 
-move the chi wheels,
+    move the chi wheels,
 
-move motor2 if motor1 current pin is true
+    move motor2 if motor1 current pin is true
 
-move motor1
+    move motor1
 
-if totalmotor (which is based on limitation and motor1) the move psi wheels
+    if totalmotor (which is based on limitation and motor1) the move psi wheels
 
-output the encrypted letter, move onto the next letter
+    output the encrypted letter, move onto the next letter
 
 When the output text is displayed, check to see if whether LTRS or FIGS is active before displaying a letter. This is similar to how SHIFT/CAPSLOCK lets you choose different symbols for the same code.
 
